@@ -12,3 +12,14 @@ if 170 >= min:
   print("CRASH")
 else:
   print("PASS")
+
+""" 풀이 2
+array = list(map(int, input().split()))
+
+min = min(array)
+
+if 170 >= min:
+  print("CRASH")
+else:
+  print("PASS")
+"""
